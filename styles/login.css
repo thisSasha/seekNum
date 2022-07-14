@@ -1,0 +1,36 @@
+/* themes */
+body *{
+    position: relative;
+}
+div.theme{
+    position: absolute;
+    margin: 0% 0 0 95%;
+}
+button.theme{
+    color: var(--color);
+    background-color: var(--background-color);
+    border: none;
+    transition: 400ms;
+}
+button.theme *{
+    border: none;
+}
+button.theme:active{
+    transition: 400ms;
+}
+/* categores */
+:root{
+    --width-category:300px;
+    --height-category:100px;
+}
+button.category{
+    transition: 400ms;
+    margin: 30px 20px 30px 20px;
+    width: var(--width-category);
+    height: var(--height-category);
+    background-color: var(--blue-theme);
+    border: none;
+}
+button.category{
+    visibility: hidden;
+}

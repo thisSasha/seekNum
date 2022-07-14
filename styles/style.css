@@ -1,0 +1,21 @@
+
+body {
+    font-family: sans-serif;
+}
+.p_style_one{
+    font-size: 10px;
+}
+body *{
+    text-align: center;
+}
+:root {
+    color-scheme: light dark;
+  }
+body{
+    transition: 400ms;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+body *{
+    border-color: var(--border-color);
+}
